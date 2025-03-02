@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>يوسف | مطور برمجيات</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <div id="particles-js"></div>
+    <div class="noise"></div>
+    <div class="page-transition"></div>
+    
+    <nav class="navbar">
+        <div class="nav-logo">
+            <div class="logo-text">يوسف</div>
+            <div class="logo-dot"></div>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link active">الرئيسية</a>
+            <a href="#about" class="nav-link">عني</a>
+            <a href="#projects" class="nav-link">مشاريعي</a>
+            <a href="#contact" class="nav-link">اتصل بي</a>
+        </div>
+        <button class="theme-toggle" aria-label="تغيير الثيم">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+            <i class="fas fa-sun" aria-hidden="true"></i>
+        </button>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="glitch-text" data-text="مرحباً، أنا يوسف">مرحباً، أنا يوسف</h1>
+                <div class="dynamic-text">
+                    <span class="text first-text">أنا </span>
+                    <span class="text sec-text"></span>
+                </div>
+                <p class="hero-description">أقدم حلولاً برمجية مبتكرة وتصاميم إبداعية تجمع بين الجمال والوظيفة</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">
+                        <span>مشاريعي</span>
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                    <a href="#contact" class="btn secondary-btn">
+                        <span>تواصل معي</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-elements">
+                    <div class="element html" data-speed="0.3">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="element css" data-speed="0.5">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <div class="element js" data-speed="0.7">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <div class="element react" data-speed="0.4">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="element angular" data-speed="0.45">
+                        <i class="devicon-angularjs-plain colored"></i>
+                    </div>
+                    <div class="element vue" data-speed="0.55">
+                        <i class="fab fa-vuejs"></i>
+                    </div>
+                    <div class="element flutter" data-speed="0.6">
+                        <i class="devicon-flutter-plain colored"></i>
+                    </div>
+                    <div class="element dart" data-speed="0.45">
+                        <i class="devicon-dart-plain colored"></i>
+                    </div>
+                    <div class="element python" data-speed="0.65">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="element java" data-speed="0.5">
+                        <i class="fab fa-java"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="section-title">
+                <h2>من أنا</h2>
+                <div class="title-bar"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="highlight">مطور برمجيات شغوف بتحويل الأفكار إلى واقع رقمي</p>
+                    <p class="about-description">
+                        أنا يوسف، مطور برمجيات متخصص في تطوير تجارب رقمية استثنائية. أجمع بين الإبداع والتقنية لبناء حلول مبتكرة تلبي احتياجات العملاء وتتجاوز توقعاتهم.
+                    </p>
+                    <div class="tech-stack">
+                        <div class="tech-item" data-tooltip="HTML5">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="tech-item" data-tooltip="CSS3">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <div class="tech-item" data-tooltip="JavaScript">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <div class="tech-item" data-tooltip="React">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="tech-item" data-tooltip="Node.js">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-container">
+                    <div class="skill">
+                        <div class="skill-name" data-progress="95">تطوير الواجهات</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name" data-progress="90">تطوير الخلفيات</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name" data-progress="85">تصميم المواقع</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name" data-progress="88">تطوير تطبيقات الموبايل</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name" data-progress="92">تحسين أداء المواقع</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="section-title">
+                <h2>أعمالي</h2>
+                <div class="title-bar"></div>
+            </div>
+            <div class="swiper project-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide project-card">
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400" alt="مشروع تطبيق ويب">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link" aria-label="معاينة المشروع">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                    <a href="#" class="project-link" aria-label="شيفرة المشروع">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>منصة تعليمية تفاعلية</h3>
+                            <p>منصة متكاملة للتعلم عن بعد مع واجهة مستخدم حديثة وتجربة تعليمية فريدة</p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- يمكن إضافة المزيد من المشاريع هنا -->
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="section-title">
+                <h2>تواصل معي</h2>
+                <div class="title-bar"></div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info">
+                            <h4>البريد الإلكتروني</h4>
+                            <a href="mailto:yousef@example.com">yousef@example.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div class="info">
+                            <h4>جيت هب</h4>
+                            <a href="#">github.com/username</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div class="info">
+                            <h4>لينكد إن</h4>
+                            <a href="#">linkedin.com/in/username</a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="الاسم" required>
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="البريد الإلكتروني" required>
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="رسالتك" required></textarea>
+                        <span class="form-line"></span>
+                    </div>
+                    <button type="submit" class="btn primary-btn">
+                        <span>إرسال</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="copyright">جميع الحقوق محفوظة &copy; 2024 يوسف</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
